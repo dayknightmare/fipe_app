@@ -11,8 +11,7 @@
 </p>
 
 
-This is an application case to make comparisons between cars of different brands and years in graph format in a period of 12 months (1 year) through the API of Cenário Capital LTDA.
-
+This is an application case to make comparisons between cars of different brands and years in graph format in a period of 12 months (1 year) through the API of Cenário Capital LTDA. The application was fully developed on Flutter in version 3.0.3 being aimed at Android and MacOS.
 
 > ### ⚠️ Attention
 > 
