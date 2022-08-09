@@ -1,0 +1,50 @@
+name: fipe_app
+description: Application to check the price of cars of different brands and years over 12 months
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  charts_flutter: ^0.12.0
+  http: ^0.13.5
+  fab_circular_menu: ^1.0.0
+
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.10.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/back.png
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: fonts/Nunito/Nunito-ExtraLight.ttf
+        - asset: fonts/Nunito/Nunito-Light.ttf
+        - asset: fonts/Nunito/Nunito-Regular.ttf
+        - asset: fonts/Nunito/Nunito-Medium.ttf
+        - asset: fonts/Nunito/Nunito-SemiBold.ttf
+        - asset: fonts/Nunito/Nunito-Bold.ttf
+        - asset: fonts/Nunito/Nunito-Black.ttf
+          weight: 400
